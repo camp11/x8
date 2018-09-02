@@ -805,13 +805,11 @@ if($message['type']=='text') {
       ),
     ),
   ),
-		array(
-'type' => 'text',
-'text' => '====[HALLO WELCOME]====',
-'text' => 'xxx',
-'text' => 'xxx',
-'text' => 'xxx',
-'text' => '[Salken dari Saya]->' .$profil->displayName
+                array (
+  'type' => 'text',
+  'text' => '====[HALLO WELCOME]====',
+  'text' => '====[HALLO WELCOME]====',
+  'text' => '[Salken dari Saya]->' .$profil->displayName,
                 )
 )
             )
