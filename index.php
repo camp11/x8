@@ -807,16 +807,11 @@ if($message['type']=='text') {
   ),
 		array(
 'type' => 'text',
-'text' => '====[HALLO WELCOME]====';
-'text' => ' \n"';
-'text' => '       ⤵Selamat Datang di⤵\n';
-'text' => '=======================\n';	
-'text' => '\n';	
-'text' => '            ';
-'text' => ' \n';
-'text' => '=======================\n';	
-'text' => '  Jangan Lupa Cek Note ya\n';
-'text' => '[Salken dari Saya]->' .$profil->displayName.'\n'
+'text' => '====[HALLO WELCOME]====',
+'text' => 'xxx',
+'text' => 'xxx',
+'text' => 'xxx',
+'text' => '[Salken dari Saya]->' .$profil->displayName
                 )
 )
             )
