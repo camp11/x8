@@ -273,7 +273,7 @@ if ($type == 'text' || $command == 'Wc') {
             array(
                 'type' => 'text',
                 'text' => $text
-            )
+            );
                 array (
   'type' => 'imagemap',
   'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524552956/line/Bot/Example',
@@ -310,7 +310,7 @@ if ($type == 'text' || $command == 'Wc') {
       ),
     ),
   ),
-)
+),
             )
 
         );
