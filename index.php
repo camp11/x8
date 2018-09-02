@@ -273,44 +273,7 @@ if ($type == 'text' || $command == 'Wc') {
             array(
                 'type' => 'text',
                 'text' => $text
-            );
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524552956/line/Bot/Example',
-  'altText' => 'WELCOME TO ',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'message',
-      'text' => 'wc',
-      'area' => 
-      array (
-        'x' => 0,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-    1 => 
-    array (
-      'type' => 'message',
-      'text' => 'Admin',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-  ),
-),
+            )
             )
 
         );
