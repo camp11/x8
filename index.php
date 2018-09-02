@@ -771,7 +771,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => '',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1524552956/line/Bot/Example',
   'altText' => 'WELCOME TO ',
   'baseSize' => 
   array (
@@ -783,7 +783,7 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'message',
-      'text' => '',
+      'text' => 'wc',
       'area' => 
       array (
         'x' => 0,
