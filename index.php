@@ -808,9 +808,7 @@ if($message['type']=='text') {
 )
 					array(
                     'type' => 'text',
-                    'text' => '====[HALLO WELCOME]====';
-                    'text' => 'Selamat datang di .$groupid->groupName.';
-                    'text' => '[Salken dari saya->  '.$profil->displayName.' ]';
+                    'text' => '====[HALLO WELCOME]====',
                 )
             )
 
@@ -840,42 +838,6 @@ if($message['type']=='text') {
           'label' => 'CHAT PM',
           'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
         ),
-      ),
-    ),
-  ),
-)
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == '' || $command == ''|| $command == ''|| $command == '' ) {
-
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'imagemap',
-  'baseUrl' => '',
-  'altText' => ' OFFICIAL',
-  'baseSize' => 
-  array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
       ),
     ),
   ),
