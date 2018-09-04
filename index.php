@@ -763,16 +763,16 @@ if($message['type']=='text') {
     }
 }
 //pesan bergambar
+//pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'Welcome' || $command == 'wc' ) {
-
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => '',
-  'altText' => 'WELCOME TO ',
+  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535211717/AKSI/4',
+  'altText' => 'WELCOME TO AKSI',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -783,7 +783,7 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'message',
-      'text' => '',
+      'text' => 'Official',
       'area' => 
       array (
         'x' => 0,
@@ -795,7 +795,7 @@ if($message['type']=='text') {
     1 => 
     array (
       'type' => 'message',
-      'text' => 'Admin',
+      'text' => 'Staff',
       'area' => 
       array (
         'x' => 520,
@@ -806,21 +806,7 @@ if($message['type']=='text') {
     ),
   ),
 )
-					array(
-                    'type' => 'text',
-                    'text' => '====[HALLO WELCOME]====';
-					'text' => ' \n";
-					'text' => '       ⤵Selamat Datang di⤵\n';
-					'text' => '=======================\n';	
-					'text' => '                $groupid\n';	
-					'text' => '            ';
-					'text' => ' \n';
-					'text' => '=======================\n';	
-					'text' => '  Jangan Lupa Cek Note ya\n';
-					'text' => '[Salken dari Saya]->$profil->displayName\n'
-                )
             )
-
         );
     }
 }
