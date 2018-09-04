@@ -255,8 +255,8 @@ if ($type == 'text' || $command == 'Wc') {
     $text .= " \n";
     $text .= "       ⤵Selamat Datang di⤵\n";
     $text .= "=======================\n";	
-    $text .= "       PRABU MAIN ROOM\n";	
-    $text .= "    PERSATUAN REMAJA BUDIMAN ";
+    $text .= "            PRABU MAIN ROOM\n";	
+    $text .= " PERSATUAN REMAJA BUDIMAN ";
     $text .= " \n";
     $text .= "=======================\n";	
     $text .= "  Jangan Lupa Cek Note ya\n";
@@ -879,7 +879,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'ALL STAFF AKSI',
+  'altText' => 'ALL STAFF PRABU',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -920,7 +920,7 @@ if($message['type']=='text') {
 ),
                 array (
   'type' => 'template',
-  'altText' => 'ALL STAFF AKSI',
+  'altText' => 'ALL STAFF PRABU',
   'template' => 
   array (
     'type' => 'image_carousel',
