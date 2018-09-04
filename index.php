@@ -211,16 +211,10 @@ if ($type == 'join' || $command == 'Help') {
     $text .= "==[Main Keywords]==";
     $text .= "> \n";
     $text .= "> Welcome\n"; 
-    $text .= "> Admin\n";
+    $text .= "> Staff\n";
+    $text .= "> Official\n";
     $text .= "> Key\n";
     $text .= "> Creator\n";
-    $text .= "> /shalat [namakota]\n";
-    $text .= "> /zodiak [tanggallahir]\n";
-    $text .= "> /lokasi [namakota]\n";
-    $text .= "> /time [namakota]\n";
-    $text .= "> /kalender [namakota]\n";
-    $text .= "> /cuaca [namakota]\n";
-    $text .= "> /qiblat [namakota]\n";
     $text .= "> /myinfo\n";
     $balas = array(
         'replyToken' => $replyToken,
@@ -261,8 +255,8 @@ if ($type == 'text' || $command == 'Wc') {
     $text .= " \n";
     $text .= "       ⤵Selamat Datang di⤵\n";
     $text .= "=======================\n";	
-    $text .= "                ><\n";	
-    $text .= "            ";
+    $text .= "       PRABU MAIN ROOM\n";	
+    $text .= "    PERSATUAN REMAJA BUDIMAN ";
     $text .= " \n";
     $text .= "=======================\n";	
     $text .= "  Jangan Lupa Cek Note ya\n";
@@ -771,8 +765,8 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535211717/AKSI/4',
-  'altText' => 'WELCOME TO AKSI',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536067449/PRABU/2',
+  'altText' => 'WELCOME TO PRABU',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -843,15 +837,15 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == '' || $command == ''|| $command == ''|| $command == '' ) {
+	    if ($command == 'Official' || $command == 'official'|| $command == 'prabu'|| $command == 'Prabu' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => '',
-  'altText' => ' OFFICIAL',
+  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536067750/PRABU/3',
+  'altText' => 'OFFICIAL PRABU',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -862,7 +856,7 @@ if($message['type']=='text') {
     0 => 
     array (
       'type' => 'uri',
-      'linkUri' => 'https://www.smule.com/',
+      'linkUri' => 'https://www.smule.com/SINGGASANA_PRABU',
       'area' => 
       array (
         'x' => 520,
@@ -885,7 +879,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'MANAGEMENT ',
+  'altText' => 'MANAGEMENT PRABU',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -893,32 +887,32 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449674/VOLS/Admin%20/1533449411218.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056767/PRABU/1/20180904_165452.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/',
+          'linkUri' => 'https://www.smule.com/__GP__',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449670/VOLS/Admin%20/1533449443327.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056756/PRABU/1/20180904_165627.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/',
+          'linkUri' => 'https://www.smule.com/SQ_dewi99_BMA',
         ),
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449673/VOLS/Admin%20/1533449431095.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056762/PRABU/1/20180904_165722.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/',
+          'linkUri' => 'https://www.smule.com/RGYS______09',
         ),
       ),
     ),
@@ -926,7 +920,7 @@ if($message['type']=='text') {
 ),
                 array (
   'type' => 'template',
-  'altText' => 'MANAGEMENT VoLS',
+  'altText' => 'MANAGEMENT PRABU',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -934,42 +928,42 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449669/VOLS/Admin%20/1533449459021.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056759/PRABU/1/20180904_165823.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/',
+          'linkUri' => 'https://www.smule.com/DA_Rara_IKSI',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449668/VOLS/Admin%20/1533449486470.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056760/PRABU/1/20180904_165909.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/',
+          'linkUri' => 'https://www.smule.com/Aquariuz14',
         ),
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449668/VOLS/Admin%20/1533449486470.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536069014/PRABU/1/20180904_204903.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/',
+          'linkUri' => 'https://www.smule.com/LEO_ISSC_NLGASIC',
         ),
       ),
       3 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449669/VOLS/Admin%20/1533449475173.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056754/PRABU/1/20180904_170028.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/',
+          'linkUri' => 'https://www.smule.com/FIS_ALS',
         ),
       ),
     ),
@@ -989,7 +983,7 @@ if($message['type']=='text') {
                 array (
   'type' => 'imagemap',
   'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532321762/Stiker/2',
-  'altText' => 'Team VoLS mengirim sticker',
+  'altText' => 'PRABU mengirim sticker',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1025,7 +1019,7 @@ if($message['type']=='text') {
                 array (
   'type' => 'imagemap',
   'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532322034/Stiker/3',
-  'altText' => 'Team VoLS mengirim sticker',
+  'altText' => 'PRABU mengirim sticker',
   'baseSize' => 
   array (
     'height' => 1040,
@@ -1061,7 +1055,7 @@ if($message['type']=='text') {
                 array (
   'type' => 'imagemap',
   'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532323952/Stiker/4',
-  'altText' => 'Team VoLS mengirim sticker',
+  'altText' => 'PRABU mengirim sticker',
   'baseSize' => 
   array (
     'height' => 1040,
