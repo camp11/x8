@@ -873,7 +873,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Admin' || $command == 'admin' ) {
+	    if ($command == 'Staff' || $command == 'staff' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
