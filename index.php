@@ -954,6 +954,16 @@ if($message['type']=='text') {
       ),
       2 => 
       array (
+        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449668/VOLS/Admin%20/1533449486470.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'linkUri' => 'https://www.smule.com/',
+        ),
+      ),
+      3 => 
+      array (
         'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1533449669/VOLS/Admin%20/1533449475173.jpg',
         'action' => 
         array (
