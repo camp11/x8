@@ -879,7 +879,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'MANAGEMENT PRABU',
+  'altText' => 'ALL STAFF AKSI',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -892,7 +892,7 @@ if($message['type']=='text') {
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/__GP__',
+          'uri' => 'https://www.smule.com/__GP__',
         ),
       ),
       1 => 
@@ -902,7 +902,7 @@ if($message['type']=='text') {
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/SQ_dewi99_BMA',
+          'uri' => 'https://www.smule.com/SQ_dewi99_BMA',
         ),
       ),
       2 => 
@@ -912,7 +912,7 @@ if($message['type']=='text') {
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/RGYS______09',
+          'uri' => 'https://www.smule.com/RGYS______09',
         ),
       ),
     ),
@@ -920,7 +920,7 @@ if($message['type']=='text') {
 ),
                 array (
   'type' => 'template',
-  'altText' => 'MANAGEMENT PRABU',
+  'altText' => 'ALL STAFF AKSI',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -933,7 +933,7 @@ if($message['type']=='text') {
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/DA_Rara_IKSI',
+          'uri' => 'https://www.smule.com/DA_Rara_IKSI',
         ),
       ),
       1 => 
@@ -943,7 +943,7 @@ if($message['type']=='text') {
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/Aquariuz14',
+          'uri' => 'https://www.smule.com/Aquariuz14',
         ),
       ),
       2 => 
@@ -953,7 +953,7 @@ if($message['type']=='text') {
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/LEO_ISSC_NLGASIC',
+          'uri' => 'https://www.smule.com/LEO_ISSC_NLGASIC',
         ),
       ),
       3 => 
@@ -963,7 +963,7 @@ if($message['type']=='text') {
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'linkUri' => 'https://www.smule.com/FIS_ALS',
+          'uri' => 'https://www.smule.com/FIS_ALS',
         ),
       ),
     ),
