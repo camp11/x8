@@ -837,6 +837,37 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
+	    if ($command == 'Gp' || $command == 'Gustih'|| $command == 'gustih'|| $command == 'gp' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'Gustih',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536141053/PRABU/4/1536139722583.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'CHAT PM',
+          'uri' => 'https://line.me/ti/p/ZYHDfcwxjp',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
 	    if ($command == 'Official' || $command == 'official'|| $command == 'prabu'|| $command == 'Prabu' ) {
 
         $balas = array(
