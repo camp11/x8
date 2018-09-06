@@ -943,7 +943,7 @@ if($message['type']=='text') {
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/RGYS______09',
+          'uri' => 'https://www.smule.com/RGYS_______09',
         ),
       ),
     ),
