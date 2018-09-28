@@ -905,16 +905,6 @@ if($message['type']=='text') {
           'uri' => 'https://www.smule.com/SQ_dewi99_BMA',
         ),
       ),
-      2 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056762/PRABU/1/20180904_165722.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/RGYS_______09',
-        ),
-      ),
     ),
   ),
 ),
@@ -938,16 +928,6 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056760/PRABU/1/20180904_165909.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/Aquariuz14',
-        ),
-      ),
-      2 => 
-      array (
         'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536069014/PRABU/1/20180904_204903.jpg',
         'action' => 
         array (
@@ -956,7 +936,7 @@ if($message['type']=='text') {
           'uri' => 'https://www.smule.com/LEO_ISSC_NLGASIC',
         ),
       ),
-      3 => 
+      2 => 
       array (
         'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056754/PRABU/1/20180904_170028.jpg',
         'action' => 
