@@ -897,12 +897,12 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056756/PRABU/1/20180904_165627.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192829/PRABU/1/20181207_212520.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/SQ_dewi99_BMA',
+          'uri' => 'https://www.smule.com/IKSI_DA_marsya',
         ),
       ),
     ),
@@ -928,12 +928,12 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536069014/PRABU/1/20180904_204903.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192832/PRABU/1/20181207_212335.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/LEO_ISSC_NLGASIC',
+          'uri' => 'https://www.smule.com/RESC_Sticke',
         ),
       ),
       2 => 
