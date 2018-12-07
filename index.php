@@ -928,7 +928,7 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
-        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192832/PRABU/1/20181207_212335.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192832/PRABU/1/20181207_212335.jpg',	      
         'action' => 
         array (
           'type' => 'uri',
