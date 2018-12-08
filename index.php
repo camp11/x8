@@ -1043,7 +1043,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'ALL STAFF AKSI',
+  'altText' => 'ALL STAFF PRABU',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -1051,42 +1051,32 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535254108/AKSI/2/1535246456447.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1536056767/PRABU/1/20180904_165452.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/AKSI_DIARRASAM',
+          'uri' => 'https://www.smule.com/__GP__',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535254108/AKSI/2/1535246454600.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192829/PRABU/1/20181207_212520.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/AKSI_Ardiarsam2',
+          'uri' => 'https://www.smule.com/IKSI_DA_marsya',
         ),
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535254108/AKSI/2/1535246452625.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192832/PRABU/1/20181207_212335.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/Abie_AKSI',
-        ),
-      ),
-      3 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535254108/AKSI/2/1535246450974.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/AKSI_HanyBSF',
+          'uri' => 'https://www.smule.com/RESC_Sticke',
         ),
       ),
     ),
@@ -1094,7 +1084,7 @@ if($message['type']=='text') {
 ),
                 array (
   'type' => 'template',
-  'altText' => 'ALL STAFF AKSI',
+  'altText' => 'ALL STAFF PRABU',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -1102,32 +1092,32 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535254108/AKSI/2/1535246447371.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056759/PRABU/1/20180904_165823.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/GV_UsyThea_87',
+          'uri' => 'https://www.smule.com/DA_Rara_IKSI',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535254108/AKSI/2/1535246449158.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544224373/PRABU/1/20181208_061141.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/AKSI_NOVITAALIT',
+          'uri' => 'https://www.smule.com/GVI_Nonon82',
         ),
       ),
       2 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535205001/AKSI/2/1535203932945.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056754/PRABU/1/20180904_170028.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/Abie_AKSI',
+          'uri' => 'https://www.smule.com/FIS_ALS',
         ),
       ),
     ),
