@@ -887,7 +887,7 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056767/PRABU/1/20180904_165452.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1536056767/PRABU/1/20180904_165452.jpg',
         'action' => 
         array (
           'type' => 'uri',
@@ -897,6 +897,16 @@ if($message['type']=='text') {
       ),
       1 => 
       array (
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1536056759/PRABU/1/20180904_165823.jpg',
+        'action' => 
+        array (
+          'type' => 'uri',
+          'label' => 'SMULE',
+          'uri' => 'https://www.smule.com/DA_Rara_IKSI',
+        ),
+      ),
+      2 => 
+      array (
         'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192829/PRABU/1/20181207_212520.jpg',
         'action' => 
         array (
@@ -905,14 +915,14 @@ if($message['type']=='text') {
           'uri' => 'https://www.smule.com/IKSI_DA_marsya',
         ),
       ),
-      2 => 
+      3 => 
       array (
-        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192832/PRABU/1/20181207_212335.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544224373/PRABU/1/20181208_061141.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/RESC_Sticke',
+          'uri' => 'https://www.smule.com/GVI_Nonon82',
         ),
       ),
     ),
@@ -928,22 +938,22 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056759/PRABU/1/20180904_165823.jpg',
+        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192832/PRABU/1/20181207_212335.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/DA_Rara_IKSI',
+          'uri' => 'https://www.smule.com/RESC_Sticke',
         ),
       ),
       1 => 
       array (
-        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544224373/PRABU/1/20181208_061141.jpg',
+        'imageUrl' => 'https://res.cloudinary.com/dmvpko25b/image/upload/v1535254108/AKSI/2/1535246449158.jpg',
         'action' => 
         array (
           'type' => 'uri',
           'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/GVI_Nonon82',
+          'uri' => 'https://www.smule.com/AKSI_NOVITAALIT',
         ),
       ),
       2 => 
@@ -1031,98 +1041,6 @@ if($message['type']=='text') {
     ),
   ),
 )
-            )
-        );
-    }
-}
-//pesan bergambar
-if($message['type']=='text') {
-	    if ($command == 'X' || $command == 'x' ) {
-        $balas = array(
-            'replyToken' => $replyToken,
-            'messages' => array(
-                array (
-  'type' => 'template',
-  'altText' => 'ALL STAFF PRABU',
-  'template' => 
-  array (
-    'type' => 'image_carousel',
-    'columns' => 
-    array (
-      0 => 
-      array (
-        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1536056767/PRABU/1/20180904_165452.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/__GP__',
-        ),
-      ),
-      1 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056759/PRABU/1/20180904_165823.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/DA_Rara_IKSI',
-        ),
-      ),
-      2 => 
-      array (
-        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192829/PRABU/1/20181207_212520.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/IKSI_DA_marsya',
-        ),
-      ),
-      3 => 
-      array (
-        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544224373/PRABU/1/20181208_061141.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/GVI_Nonon82',
-        ),
-      ),
-    ),
-  ),
-),
-                array (
-  'type' => 'template',
-  'altText' => 'ALL STAFF PRABU',
-  'template' => 
-  array (
-    'type' => 'image_carousel',
-    'columns' => 
-    array (
-      0 => 
-      array (
-        'imageUrl' => 'http://res.cloudinary.com/tes5566/image/upload/v1544192832/PRABU/1/20181207_212335.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/RESC_Sticke',
-        ),
-      ),
-      2 => 
-      array (
-        'imageUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1536056754/PRABU/1/20180904_170028.jpg',
-        'action' => 
-        array (
-          'type' => 'uri',
-          'label' => 'SMULE',
-          'uri' => 'https://www.smule.com/FIS_ALS',
-        ),
-      ),
-    ),
-  ),
-),
             )
         );
     }
