@@ -668,15 +668,34 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Halo' || $command == 'Hallo' ) {
-
+	    if ($command == 'Halo' || $command == 'halo' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98063982/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'halo',
+        ),
+      ),
+    ),
+  ),
+),
                 array(
                     'type' => 'text',
                     'text' => 'HALLO apa kabar '.$profil->displayName.' ?'
-                )
+                ),
             )
         );
     }
@@ -965,32 +984,26 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Kaget' || $command == 'Ha' ) {
-
+	    if ($command == 'hihi' || $command == 'Hihi' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532321762/Stiker/2',
+  'type' => 'template',
   'altText' => 'PRABU mengirim sticker',
-  'baseSize' => 
+  'template' => 
   array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
+    'type' => 'image_carousel',
+    'columns' => 
     array (
-      'type' => 'message',
-      'text' => 'Kaget',
-      'area' => 
+      0 => 
       array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/12760024/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'hihi',
+        ),
       ),
     ),
   ),
@@ -1001,32 +1014,86 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Haha' || $command == 'Hahaha' ) {
-
+	    if ($command == 'wkwk' || $command == 'Wkwk' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532322034/Stiker/3',
+  'type' => 'template',
   'altText' => 'PRABU mengirim sticker',
-  'baseSize' => 
+  'template' => 
   array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
+    'type' => 'image_carousel',
+    'columns' => 
     array (
-      'type' => 'message',
-      'text' => 'Haha',
-      'area' => 
+      0 => 
       array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/12760021/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'wkwk',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'hm' || $command == 'Bingung' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98064003/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'hm',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'xixi' || $command == 'Xixi' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/12589573/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'xixi',
+        ),
       ),
     ),
   ),
@@ -1063,6 +1130,126 @@ if($message['type']=='text') {
         'y' => 0,
         'width' => 520,
         'height' => 1040,
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'ha' || $command == 'Ha' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98064001/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'Ha',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Haha' || $command == 'haha' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98063989/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'haha',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'Kangen' || $command == 'kangen' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98063997/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'kangen',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'grr' || $command == 'Grr' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98063994/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'grr',
+        ),
       ),
     ),
   ),
