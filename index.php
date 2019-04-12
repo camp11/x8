@@ -1258,6 +1258,36 @@ if($message['type']=='text') {
         );
     }
 }
+//pesan bergambar
+if($message['type']=='text') {
+	    if ($command == 'bye' || $command == 'Bye' ) {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/98063983/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'bye',
+        ),
+      ),
+    ),
+  ),
+)
+            )
+        );
+    }
+}
 if (isset($balas)) {
     $result = json_encode($balas);
 //$result = ob_get_clean();
