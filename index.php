@@ -818,7 +818,7 @@ if($message['type']=='text') {
       ),
     ),
   ),
-)
+),
 		    array (
   'type' => 'template',
   'altText' => 'PRABU mengirim sticker',
