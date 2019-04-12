@@ -1044,7 +1044,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'hm' || $command == 'Bingung' ) {
+	    if ($command == 'hm' || $command == 'Hm' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
