@@ -819,6 +819,26 @@ if($message['type']=='text') {
     ),
   ),
 )
+		    array (
+  'type' => 'template',
+  'altText' => 'PRABU mengirim sticker',
+  'template' => 
+  array (
+    'type' => 'image_carousel',
+    'columns' => 
+    array (
+      0 => 
+      array (
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/155884160/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'Welcome',
+        ),
+      ),
+    ),
+  ),
+)
             )
         );
     }
