@@ -1304,7 +1304,7 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/7001024/IOS/sticker_animation@2x.png;compress=true',
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/165433099/IOS/sticker_animation@2x.png;compress=true',
         'action' => 
         array (
           'type' => 'message',
