@@ -1124,32 +1124,26 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Sepi' || $command == 'sepi' ) {
-
+	    if ($command == 'sepi' || $command == 'Sepi' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532323952/Stiker/4',
+  'type' => 'template',
   'altText' => 'PRABU mengirim sticker',
-  'baseSize' => 
+  'template' => 
   array (
-    'height' => 1040,
-    'width' => 1040,
-  ),
-  'actions' => 
-  array (
-    0 => 
+    'type' => 'image_carousel',
+    'columns' => 
     array (
-      'type' => 'message',
-      'text' => 'Sepi',
-      'area' => 
+      0 => 
       array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
+        'imageUrl' => 'https://stickershop.line-scdn.net/stickershop/v1/sticker/171030687/IOS/sticker_animation@2x.png;compress=true',
+        'action' => 
+        array (
+          'type' => 'message',
+          'text' => 'sepi',
+        ),
       ),
     ),
   ),
